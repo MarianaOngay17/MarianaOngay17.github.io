@@ -1,0 +1,125 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'sass:color';
+
+.dark-mode{
+    background-color: v.$DarkFondoMain;
+
+    .container{
+        box-shadow: v.$DarkFondoTarjeta 0px 54px 55px, v.$DarkFondoTarjeta 0px -12px 30px, v.$DarkFondoTarjeta 0px 4px 6px, v.$DarkFondoTarjeta 0px 12px 13px, v.$BordeTarjeta 0px -3px 5px;
+    }
+
+    h2{
+        color: v.$White;
+    }
+
+    .sobre-mi__texto{
+        p{
+            color: v.$FondoMain
+        }
+    }
+
+    .habilidades{
+
+        &__frontend,
+        &__backend,
+        &__database{
+            background-color: v.$DarkFondoTarjeta;
+
+            h3, p{
+                color: v.$FondoMain;
+            }
+        }
+
+        &__icon{
+             background-color: v.$BordeTarjeta;
+        }
+    }
+
+    .proyectos{
+
+        &__proyecto{
+            background-color: v.$DarkFondoTarjeta;            
+        }
+
+        &__title{
+            h3{
+                color: v.$White;
+            }
+        }
+
+        &__tools a img{
+            filter: invert(1);
+        }
+
+        &__tools img{
+            background-color: v.$White;
+            border-radius: 5px;
+            padding: 0.1rem;
+        }
+
+        
+        &__livedemo-btn{
+            @include m.btn-dark;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        &__button{
+            @include m.btn-dark;
+        }
+
+    }
+
+    .contacto{
+        background-color: v.$DarkFondoTarjeta;
+
+        &__links {
+            a[href*="github"] {
+                img {
+                        filter: invert(1);
+                }
+            }
+        }
+    }
+
+    .formulario{
+        &__item{
+            label{
+                color: v.$White;
+            }
+            
+            input,
+            textarea{
+                background-color: v.$BordeTarjeta;
+                color: v.$White
+            }
+        }
+
+        &__submit{
+            @include m.btn-dark;
+        }
+    }
+
+    .bi-house-fill{
+        color: v.$VerdeNeon;
+    }
+
+
+    .theme-toggle{
+        background: linear-gradient(135deg, v.$VerdeNeon 0%, v.$CianNeon 100%);
+    }
+
+    .success{
+        background: linear-gradient(135deg, v.$VerdeNeon 0%, v.$CianNeon 100%);
+        color: v.$DarkFondoMain;
+        img{
+            filter: invert(1);
+        }
+        &__message{
+            color: v.$DarkFondoMain;
+        }
+    }
+
+}
+

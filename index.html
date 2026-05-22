@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon-mo.svg">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Mariana Ongay Ortiz | Developer</title>
+
+</head>
+<body>
+
+
+<main id="contenido-principal" class="container">
+
+    <button type="button" 
+        class="theme-toggle" 
+        id="theme-toggle" 
+        aria-label="Cambiar a modo oscuro" 
+        aria-pressed="false">
+    
+    <span class="theme-toggle__slider">
+        
+        <svg class="theme-toggle__icon theme-toggle__icon--inside theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.22" x2="5.64" y2="17.78"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+
+        <svg class="theme-toggle__icon theme-toggle__icon--inside theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </span>
+</button>
+
+
+    <section class="sobre-mi" aria-labelledby="titulo-sobre-mi">
+        <h2 id="titulo-sobre-mi" >MI INFO | SOBRE MÍ</h2>
+        <div class="sobre-mi__content">
+            <img src="assets/images/mariana.webp" alt="Fotografía retrato de Mariana Ongay Ortiz">
+            <div class="sobre-mi__texto">
+                <p class="sobre-mi__texto--header">¡Hola! Soy Mariana Ongay, apasionada desarrolladora de Fullstack</p>
+                <p>Con más de 2 años de experiencia, me especializo en transformar ideas en aplicaciones
+                    web escalables y accesibles. Mi enfoque combina la precisión del Backend en .NET (C#), con la 
+                    creatividad del Frontend utilizando SASS y Javascript avanzado.
+                </p>
+            </div>
+        </div> <!--.sobre-mi__content-->
+    </section> <!--.sobre-mi-->
+
+    <section class="habilidades" aria-labelledby="titulo-habilidades"  data-aos="fade-up"  data-aos-duration="1000">
+        <h2 id="titulo-habilidades">MIS HABILIDADES</h2>
+        <div class="habilidades__content">
+
+            <div class="habilidades__frontend" aria-live="polite">
+                <h3 class="habilidades__title">FRONTEND</h3>
+
+            </div> <!--.habilidades__frontend-->
+
+            <div class="habilidades__backend" aria-live="polite">  
+                <h3 class="habilidades__title">BACKEND</h3>
+
+            </div> <!--.habilidades__backend-->
+
+            <div class="habilidades__database" aria-live="polite">
+                <h3 class="habilidades__title">DATABASE</h3>
+                
+            </div> <!--.habilidades__database-->
+
+        </div> <!--.habilidades__content-->
+    </section> <!--.habilidades-->
+
+    <section class="proyectos" aria-labelledby="titulo-proyectos" data-aos="fade-up"  data-aos-duration="2000"> 
+        <h2 id="titulo-proyectos">MIS PROYECTOS</h2>
+
+        <div class="proyectos__content">
+
+            <button type="button" class="proyectos__button" id="cargar-mas-proyectos">
+                VER MÁS PROYECTOS
+            </button>
+
+        </div> 
+  
+    </section> 
+
+    <section class="contacto" aria-labelledby="titulo-contacto">
+        <div class="contacto__header">
+            <h2 id="titulo-contacto">CONTACTO</h2>
+            <div class="contacto__links">
+                <a 
+                    href="https://www.linkedin.com/in/mariana-ongay-ortiz-a073a22ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Perfil profesional de LinkedIn (abre en una nueva pestaña)" id="linkedinProfile">
+                    <img src="assets/images/Icons/lindekin-icon.jpg" alt="" aria-hidden="true"></a>
+                <a 
+                    href="https://github.com/MarianaOngay17"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Repositorio de GitHub de Mariana (abre en una nueva pestaña)" id="githubProfile">
+                    <img src="assets/images/Icons/github-icon.png" alt="" aria-hidden="true"></a>
+            </div> <!--.contacto__links-->
+        </div> <!--.contacto__header-->
+
+       <form class="contacto__formulario" novalidate>
+
+            <div class="formulario__item">
+                <label id="label-nombre" for="nombre">NOMBRE</label>
+                <input type="text" id="nombre" name="user_name" required aria-required="true" required>
+            </div> <!--.formulario__item-->
+
+            <div class="formulario__item">
+                <label id="label-email" for="email">EMAIL</label>
+                <input type="email" id="email" name="user_email" required aria-required="true" required>
+            </div> <!--.formulario__item-->
+
+            <div class="formulario__item">
+                <label for="mensaje">MENSAJE</label>
+                <textarea name="message" id="mensaje" required aria-required="true" required></textarea>
+            </div> <!--.formulario__item-->
+
+            <button type="submit" class="formulario__submit">ENVIAR MENSAJE</button>
+
+       </form> <!--.contacto__formulario-->
+        
+    </section> <!--.contacto-->
+
+</main> <!--.container-->
+
+  <div class="success hidden" tabindex="-1">
+    <div class="success__title">
+      <img src="assets/images/icon-success-check.svg" alt="" aria-hidden="true">
+      <p>Mensaje Enviado!</p>
+    </div> <!--.success__title-->
+    <div class="success__message">
+      Gracias por ponerte en contacto. He recibido tu mensaje y te responderé lo antes posible.
+    </div>
+  </div> <!--.success-->
+
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/keyMovility.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
+</body>
+</html>

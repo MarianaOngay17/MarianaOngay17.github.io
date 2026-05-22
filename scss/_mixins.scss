@@ -1,0 +1,111 @@
+@use 'variables' as v;
+@use 'sass:color';
+
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+
+@mixin link-icon{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.25rem; 
+    border-radius: 8px;
+    transition: outline 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+
+    img{
+        width: 2rem; 
+        height: 2rem;
+        object-fit: contain;
+        display: block;
+    }
+
+    &:focus-visible {
+        outline: none; 
+        outline: 3px solid v.$AzulElectrico; 
+        outline-offset: 4px; 
+    }
+            
+    &:hover {
+        transform: scale(1.1); 
+    }
+}
+
+@mixin btn-light{
+    appearance: none;
+    -moz-appearance: none;
+    font-family: v.$fuente_principal;
+    border: none;
+    color: v.$White; 
+    padding: 0.8rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: v.$bold;
+    border-radius: 10px; 
+    cursor: pointer;
+        
+    background: linear-gradient(135deg, v.$Morado 0%, v.$Fucsia 100%);
+        
+    background-size: 100% 100%;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: linear-gradient(135deg, v.$Fucsia 0%, v.$Morado 100%);
+        transform: translateY(-2px); 
+        box-shadow: 0 4px 15px rgba(v.$Morado, 0.4); 
+    }
+
+    &:focus {
+        outline: 3px solid v.$AzulElectrico; 
+        outline-offset: 2px;
+    }
+
+    &:active {
+        transform: translateY(0); 
+    }   
+
+}
+
+
+@mixin btn-dark{
+    appearance: none;
+    -moz-appearance: none;
+    font-family: v.$fuente_principal;
+    border: none;
+    color: v.$DarkFondoMain; 
+    padding: 0.8rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: v.$bold;
+    border-radius: 10px; 
+    cursor: pointer;
+        
+    background: linear-gradient(135deg, v.$CianNeon 0%, v.$VerdeNeon 100%);
+        
+    background-size: 100% 100%;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: linear-gradient(135deg, v.$VerdeNeon 0%, v.$CianNeon 100%);
+        transform: translateY(-2px); 
+        box-shadow: 0 4px 15px rgba(v.$CianNeon, 0.4); 
+    }
+
+    &:focus {
+        outline: 3px solid v.$AzulElectrico; 
+        outline-offset: 2px;
+    }
+
+    &:active {
+        transform: translateY(0); 
+    }   
+
+}

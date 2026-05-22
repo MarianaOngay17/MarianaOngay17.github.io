@@ -1,0 +1,313 @@
+{
+    "habilidades": {
+        "frontend": [
+            {
+                "title": "HTML",
+                "icon": "./assets/images/Icons/html-icon.png"
+            },
+            {
+                "title": "CSS",
+                "icon": "/assets/images/Icons/css-icon.png"
+            },
+            {
+                "title": "SASS",
+                "icon": "/assets/images/Icons/sass-icon.png"
+            },
+            {
+                "title": "JS",
+                "icon": "/assets/images/Icons/js-icon.png"
+            },
+            {
+                "title": "JQuery",
+                "icon": "/assets/images/Icons/jquery-icon.png"
+            },
+            {
+                "title": "AJAX",
+                "icon": "/assets/images/Icons/ajax-icon.svg"
+            }
+        ],
+        "backend":[
+            {
+                "title": "C#",
+                "icon": "/assets/images/Icons/csharp-icon.png"
+            },
+            {
+                "title": ".NET",
+                "icon": "/assets/images/Icons/net-icon.png"
+            },
+            {
+                "title": "Entity Framework",
+                "icon": "/assets/images/Icons/entity-icon.jpg"
+            },
+            {
+                "title": "RESTful APIs",
+                "icon": "/assets/images/Icons/rest-icon.png"
+            },
+            {
+                "title": "Swagger",
+                "icon": "/assets/images/Icons/swagger-icon.png"
+            }
+        ],
+        "database":[
+            {
+                "title": "MySQL",
+                "icon": "/assets/images/Icons/mysql-icon.png"
+            },
+            {
+                "title": "SQL Server",
+                "icon": "/assets/images/Icons/sqlserver-icon.png"
+            },
+            {
+                "title": "Postgre SQL",
+                "icon": "/assets/images/Icons/postgre-icon.webp"
+            }
+        ]
+    },
+    "proyectos": [
+        {
+            "title": "Festival de Música",
+            "LiveDemo": "https://marianafestivalmusica.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/festival-de-musica.png",
+            "GitHub": "https://github.com/MarianaOngay17/festivalmusica.git",
+            "Order": 1,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "CSS",
+                    "icon": "./assets/images/Icons/css-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Frontend Quiz App",
+            "LiveDemo": "https://frontend-quiz-app-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/quiz-app.png",
+            "GitHub": "https://github.com/MarianaOngay17/frontend-quiz-app.git",
+            "Order": 2,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Tip Calculator",
+            "LiveDemo": "https://tip-calculator-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/tip-calculator.png",
+            "GitHub": "https://github.com/MarianaOngay17/tip-calculator-app.git",
+            "Order": 3,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Password Generator",
+            "LiveDemo": "https://passwordgeneradorsass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/password-generator.png",
+            "GitHub": "https://github.com/MarianaOngay17/password-generator-app.git",
+            "Order": 4,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Blog de Café",
+            "LiveDemo": "https://marianablogdecafe.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/blog-cafe.png",
+            "GitHub": "https://github.com/MarianaOngay17/blogdecafe.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "CSS",
+                    "icon": "./assets/images/Icons/css-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "News Homepage",
+            "LiveDemo": "https://news-homepage-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/news-homepage.png",
+            "GitHub": "https://github.com/MarianaOngay17/news-homepage.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Time Tracking Dashboard",
+            "LiveDemo": "https://time-tracking-dashboard-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/time-tracking.png",
+            "GitHub": "https://github.com/MarianaOngay17/time-tracking-dashboard.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Meet Landing Page",
+            "LiveDemo": "https://meetlandingpage-responsive-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/meet-landing-page.png",
+            "GitHub": "https://github.com/MarianaOngay17/meet-landing-page.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Newsletter Sign Up",
+            "LiveDemo": "https://newsletter-sign-up-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/newsletter-signup.png",
+            "GitHub": "https://github.com/MarianaOngay17/newsletter-sign-up-with-success-message.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Rating Component",
+            "LiveDemo": "https://ratingcomponentsass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/rating-component.png",
+            "GitHub": "https://github.com/MarianaOngay17/interactive-rating-component.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "FAQ Accordion",
+            "LiveDemo": "https://faq-accordion-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/faq-accordion.png",
+            "GitHub": "https://github.com/MarianaOngay17/faq-accordion.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Contact Form Component",
+            "LiveDemo": "https://contact-form-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/contact-form.png",
+            "GitHub": "https://github.com/MarianaOngay17/contact-form.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        }
+    ]
+    
+}
