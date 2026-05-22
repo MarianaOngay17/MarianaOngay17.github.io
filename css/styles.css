@@ -165,7 +165,7 @@ body {
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   max-width: 25rem;
 }
 @media (min-width: 768px) {
@@ -520,6 +520,7 @@ h2 {
   border: none;
   border-radius: 5px;
   height: 2rem;
+  width: 100%;
 }
 .formulario__item input:hover, .formulario__item input:focus-visible,
 .formulario__item textarea:hover,

@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
 
-    width: 90%;      
+    width: 80%;      
     max-width: 25rem;
 
     @include m.tablet{
@@ -330,6 +330,7 @@ h2{
             border: none;
             border-radius: 5px;
             height: 2rem;
+            width: 100%;
 
             &:hover,
             &:focus-visible{
