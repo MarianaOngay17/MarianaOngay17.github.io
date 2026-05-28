@@ -65,10 +65,10 @@
     },
     "proyectos": [
         {
-            "title": "Festival de Música",
-            "LiveDemo": "https://marianafestivalmusica.netlify.app/",
-            "LiveDemoImage": "./assets/images/LiveDemos/festival-de-musica.png",
-            "GitHub": "https://github.com/MarianaOngay17/festivalmusica.git",
+            "title": "Ecommerce Product Page",
+            "LiveDemo": "https://ecommerce-product-page-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/ecommerce-product-page.png",
+            "GitHub": "https://github.com/MarianaOngay17/ecommerce-product-page.git",
             "Order": 1,
             "Tools": [
                 {
@@ -76,8 +76,8 @@
                     "icon": "./assets/images/Icons/html-icon.png"
                 },
                 {
-                    "title": "CSS",
-                    "icon": "./assets/images/Icons/css-icon.png"
+                    "title": "SCSS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
                 },
                 {
                     "title": "JS",
@@ -141,6 +141,27 @@
                 {
                     "title": "SASS",
                     "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Festival de Música",
+            "LiveDemo": "https://marianafestivalmusica.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/festival-de-musica.png",
+            "GitHub": "https://github.com/MarianaOngay17/festivalmusica.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "CSS",
+                    "icon": "./assets/images/Icons/css-icon.png"
                 },
                 {
                     "title": "JS",
