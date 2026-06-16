@@ -65,11 +65,44 @@
     },
     "proyectos": [
         {
+            "title": "The Oracle Solstice",
+            "LiveDemo": "https://the-oracle-solstice.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/the-oracle-solstice.png",
+            "GitHub": "https://github.com/MarianaOngay17/solstice-oracle.git",
+            "Order": 1,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SCSS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                },
+                {
+                    "title": "Gemini",
+                    "icon": "./assets/images/Icons/gemini-icon.png"
+                },
+                {
+                    "title": "NodeJS",
+                    "icon": "./assets/images/Icons/nodejs-icon.png"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "./assets/images/Icons/expressjs-icon.png"
+                }
+            ]
+        },
+        {
             "title": "Ecommerce Product Page",
             "LiveDemo": "https://ecommerce-product-page-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/ecommerce-product-page.png",
             "GitHub": "https://github.com/MarianaOngay17/ecommerce-product-page.git",
-            "Order": 1,
+            "Order": 2,
             "Tools": [
                 {
                     "title": "HTML",
@@ -90,7 +123,7 @@
             "LiveDemo": "https://frontend-quiz-app-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/quiz-app.png",
             "GitHub": "https://github.com/MarianaOngay17/frontend-quiz-app.git",
-            "Order": 2,
+            "Order": 3,
             "Tools": [
                 {
                     "title": "HTML",
@@ -111,7 +144,7 @@
             "LiveDemo": "https://tip-calculator-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/tip-calculator.png",
             "GitHub": "https://github.com/MarianaOngay17/tip-calculator-app.git",
-            "Order": 3,
+            "Order": 4,
             "Tools": [
                 {
                     "title": "HTML",
@@ -132,7 +165,7 @@
             "LiveDemo": "https://passwordgeneradorsass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/password-generator.png",
             "GitHub": "https://github.com/MarianaOngay17/password-generator-app.git",
-            "Order": 4,
+            "Order": null,
             "Tools": [
                 {
                     "title": "HTML",

@@ -167,6 +167,8 @@ h2{
         flex-direction: column;
         justify-content: space-around;
 
+        width: auto;
+
         @include m.tablet {
             &:nth-child(1) {
                 grid-column: 1 / 4;
@@ -207,6 +209,7 @@ h2{
 
                     h3{
                         margin: 0.2rem;
+                        text-align: center;
                     }
                 }
             }
@@ -242,8 +245,11 @@ h2{
     }
 
     &__tools{
-        display: flex;
-        gap: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 0.5rem; 
+        align-items: center;
+        justify-items: center; 
         img{
             width: 2.5rem; 
             height: 2.5rem;
