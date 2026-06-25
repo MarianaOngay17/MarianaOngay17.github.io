@@ -119,10 +119,10 @@
             ]
         },
         {
-            "title": "Frontend Quiz App",
-            "LiveDemo": "https://frontend-quiz-app-sass.netlify.app/",
-            "LiveDemoImage": "./assets/images/LiveDemos/quiz-app.png",
-            "GitHub": "https://github.com/MarianaOngay17/frontend-quiz-app.git",
+            "title": "BMI Calculator",
+            "LiveDemo": "https://bmi-calculator-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/bmi-calculator.png",
+            "GitHub": "https://github.com/MarianaOngay17/bmi-calculator.git",
             "Order": 3,
             "Tools": [
                 {
@@ -145,6 +145,27 @@
             "LiveDemoImage": "./assets/images/LiveDemos/tip-calculator.png",
             "GitHub": "https://github.com/MarianaOngay17/tip-calculator-app.git",
             "Order": 4,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "Frontend Quiz App",
+            "LiveDemo": "https://frontend-quiz-app-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/quiz-app.png",
+            "GitHub": "https://github.com/MarianaOngay17/frontend-quiz-app.git",
+            "Order": null,
             "Tools": [
                 {
                     "title": "HTML",
