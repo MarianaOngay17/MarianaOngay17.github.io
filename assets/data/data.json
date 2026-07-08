@@ -139,12 +139,41 @@
                 }
             ]
         },
+            {
+            "title": "Tic Tac Toe AI",
+            "LiveDemo": "https://tictactoe-ai-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/tictactoe.png",
+            "GitHub": "https://github.com/MarianaOngay17/tic-tac-toe-game.git",
+            "Order": 4,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                },
+                   {
+                    "title": "Gemini",
+                    "icon": "./assets/images/Icons/gemini-icon.png"
+                },
+                {
+                    "title": "NodeJS",
+                    "icon": "./assets/images/Icons/nodejs-icon.png"
+                }
+            ]
+        },
         {
             "title": "Tip Calculator",
             "LiveDemo": "https://tip-calculator-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/tip-calculator.png",
             "GitHub": "https://github.com/MarianaOngay17/tip-calculator-app.git",
-            "Order": 4,
+            "Order": null,
             "Tools": [
                 {
                     "title": "HTML",
