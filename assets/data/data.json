@@ -169,6 +169,23 @@
             ]
         },
         {
+            "title": "NFT Card Component",
+            "LiveDemo": "https://nft-card-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/nft-card.png",
+            "GitHub": "https://github.com/MarianaOngay17/nft-preview-card-component.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                }
+            ]
+        },
+        {
             "title": "Tip Calculator",
             "LiveDemo": "https://tip-calculator-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/tip-calculator.png",
