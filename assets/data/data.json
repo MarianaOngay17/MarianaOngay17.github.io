@@ -169,6 +169,27 @@
             ]
         },
         {
+            "title": "Room Homepage",
+            "LiveDemo": "https://room-homepage-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/room-homepage.png",
+            "GitHub": "https://github.com/MarianaOngay17/room-homepage.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SCSS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
             "title": "Ecommerce Product Page",
             "LiveDemo": "https://ecommerce-product-page-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/ecommerce-product-page.png",
