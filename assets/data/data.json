@@ -98,11 +98,32 @@
             ]
         },
         {
+            "title": "Booksmark Landing Page",
+            "LiveDemo": "https://bookmarks-landing-page-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/booksmark-landing-page.png",
+            "GitHub": "https://github.com/MarianaOngay17/bookmark-landing-page.git",
+            "Order": 2,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
+                }
+            ]
+        },
+        {
             "title": "Loopstudios Landing Page",
             "LiveDemo": "https://loopstudios-landing-page-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/loopstudios-landing.png",
             "GitHub": "https://github.com/MarianaOngay17/loopstudios-landing-page.git",
-            "Order": 2,
+            "Order": 3,
             "Tools": [
                 {
                     "title": "HTML",
@@ -119,27 +140,6 @@
             ]
         },
         {
-            "title": "BMI Calculator",
-            "LiveDemo": "https://bmi-calculator-sass.netlify.app/",
-            "LiveDemoImage": "./assets/images/LiveDemos/bmi-calculator.png",
-            "GitHub": "https://github.com/MarianaOngay17/bmi-calculator.git",
-            "Order": 3,
-            "Tools": [
-                {
-                    "title": "HTML",
-                    "icon": "./assets/images/Icons/html-icon.png"
-                },
-                {
-                    "title": "SASS",
-                    "icon": "./assets/images/Icons/sass-icon.png"
-                },
-                {
-                    "title": "JS",
-                    "icon": "./assets/images/Icons/js-icon.png"
-                }
-            ]
-        },
-            {
             "title": "Tic Tac Toe AI",
             "LiveDemo": "https://tictactoe-ai-sass.netlify.app/",
             "LiveDemoImage": "./assets/images/LiveDemos/tictactoe.png",
@@ -165,6 +165,27 @@
                 {
                     "title": "NodeJS",
                     "icon": "./assets/images/Icons/nodejs-icon.png"
+                }
+            ]
+        },
+        {
+            "title": "BMI Calculator",
+            "LiveDemo": "https://bmi-calculator-sass.netlify.app/",
+            "LiveDemoImage": "./assets/images/LiveDemos/bmi-calculator.png",
+            "GitHub": "https://github.com/MarianaOngay17/bmi-calculator.git",
+            "Order": null,
+            "Tools": [
+                {
+                    "title": "HTML",
+                    "icon": "./assets/images/Icons/html-icon.png"
+                },
+                {
+                    "title": "SASS",
+                    "icon": "./assets/images/Icons/sass-icon.png"
+                },
+                {
+                    "title": "JS",
+                    "icon": "./assets/images/Icons/js-icon.png"
                 }
             ]
         },
